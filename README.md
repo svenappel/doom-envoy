@@ -16,7 +16,7 @@ Run Doom on an Enphase IQ Gateway Standard via SSH X11 forwarding.
 ## Build
 
 ```sh
-git clone https://github.com/YOUR_USERNAME/doom-envoy
+git clone https://github.com/svenappel/doom-envoy
 cd doom-envoy
 docker build --no-cache --platform linux/arm/v7 -t doom-envoy .
 mkdir -p output
